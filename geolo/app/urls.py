@@ -6,7 +6,7 @@ app_name = 'App'
 
 urlpatterns = [
 
-    path("about/", TemplateView.as_view(template_name="pages/about.html"), name="about",),
+    path("about/", TemplateView.as_view(template_name="about.html"), name="about",),
     path("", home_view, name="home"),
   
 

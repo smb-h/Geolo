@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+<ul>
+    {% for key, value in meta.items %}
+        <li>{{ key }} : {{ value }}</li>
+    {% endfor %}
+</ul>
+
+
+{% endblock content %}
+

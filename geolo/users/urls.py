@@ -7,7 +7,7 @@ from geolo.users.views import (
     user_detail_view,
 )
 
-app_name = "users"
+app_name = "Users"
 urlpatterns = [
     path("", view=user_list_view, name="list"),
     path("~redirect/", view=user_redirect_view, name="redirect"),
